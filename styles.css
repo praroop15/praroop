@@ -612,3 +612,9 @@ button:focus-visible {
     max-width: none;
   }
 }
+.responsive-img {
+  display: block;
+  margin: 0 auto;   /* centers the image */
+  max-width: 100%;  /* makes it shrink on small screens */
+  height: auto;     /* keeps proportions */
+}
